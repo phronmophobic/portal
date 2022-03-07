@@ -14,6 +14,7 @@
     io.aviso/pretty               {:mvn/version "1.1.1"}
     ns-tracker/ns-tracker         {:mvn/version "0.4.0"}
     vlaaad/reveal                 {:mvn/version "1.3.270"}
+    com.phronemophobic/reveal-treemap {:mvn/version "0.1.6"}
     io.github.clojure/tools.build {:git/tag "v0.8.0" :git/sha "e3e3532"}}}
   :cljs
   {:extra-deps
@@ -21,6 +22,8 @@
     lambdaisland/deep-diff2   {:mvn/version "2.0.108"}
     markdown-clj/markdown-clj {:mvn/version "1.10.8"}
     org.babashka/sci          {:mvn/version "0.3.1"}
+    com.phronemophobic/membrane {:mvn/version "0.9.31.8-beta"}
+    com.phronemophobic/treemap-clj {:mvn/version "0.2.5"}
     reagent/reagent           {:mvn/version "1.1.0"}}}
   :shadow
   {:extra-deps
