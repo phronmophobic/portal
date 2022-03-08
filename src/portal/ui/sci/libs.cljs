@@ -37,6 +37,7 @@
             portal.ui.viewer.vega
             portal.ui.viewer.vega-lite
             portal.ui.viewer.treemap
+            portal.ui.viewer.viscous
             reagent.core
             reagent.dom
             [sci.core :as sci]))
@@ -88,6 +89,7 @@
     portal.ui.viewer.vega
     portal.ui.viewer.vega-lite
     portal.ui.viewer.treemap
+    portal.ui.viewer.viscous
     reagent.core
     reagent.dom)
    (sci-import/import

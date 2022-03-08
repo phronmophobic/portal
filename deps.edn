@@ -24,6 +24,7 @@
     org.babashka/sci          {:mvn/version "0.3.1"}
     com.phronemophobic/membrane {:mvn/version "0.9.31.8-beta"}
     com.phronemophobic/treemap-clj {:mvn/version "0.2.5"}
+    com.phronemophobic/viscous {:mvn/version "1.1"}
     reagent/reagent           {:mvn/version "1.1.0"}}}
   :shadow
   {:extra-deps

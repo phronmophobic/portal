@@ -36,6 +36,7 @@
             [portal.ui.viewer.tree :as tree]
             [portal.ui.viewer.vega :as vega]
             [portal.ui.viewer.treemap :as treemap]
+            [portal.ui.viewer.viscous :as viscous]
             [portal.ui.viewer.vega-lite :as vega-lite]))
 
 (defn- selected-context-view []
@@ -385,6 +386,7 @@
    vega-lite/viewer
    vega/viewer
    treemap/viewer
+   viscous/viewer
    bin/viewer
    table/viewer
    tree/viewer
